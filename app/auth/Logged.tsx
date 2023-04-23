@@ -18,7 +18,7 @@ export default function Logged({ image }: User){
                 Sign Out
             </button>
             <Link href={'/dashboard'}>
-            <Image width={64} height={64} src={image} />
+            <Image width={64} height={64} src={image} alt="" priority={true}/>
             </Link>
         </li>
     )
